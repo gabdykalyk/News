@@ -1,0 +1,414 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER 
+================*/
+
+.container__header {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.header {
+    margin-top: 37px;
+}
+
+.header__title {
+    font-size: 12px;
+    color: #7D7D7D;;
+}
+
+/* NAV
+================== */
+
+.container__nav {
+    width: 1202px;
+}
+
+.nav {
+    background-color: #363636;
+    border-radius: 6px;
+    color: #ffffff;
+    height: 62px;
+    max-width: 1202px;
+    width: 100%;
+    margin-top: 136px;
+}
+
+.nav__links:not(:first-child) {
+    padding: 0;
+    margin-left: 34px;
+}
+
+/* MAIN
+================== */
+.container__main {
+    max-width: 1132px;
+    width: 100%;
+    margin-top: 53px;
+}
+
+.row__bottom {
+    margin-top: 7px;
+}
+
+.main__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    
+}
+
+.main__text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #E3E3E3;
+}
+
+.main__image, .row__bottom__image {
+    position: relative;
+}
+
+.main__info {
+    position: absolute;
+    left: 27px;
+    bottom: 23px;
+
+}
+
+.row__bottom__image__title {
+    position: absolute;
+    left: 13px;
+    bottom: 16px;
+    max-width: 250px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* SECTION
+NEWS =============== */
+
+/* SECTION NEWS MAIN
+====================== */
+.container__news {
+    max-width: 1125px;
+    width: 100%;
+    display: flex;
+}
+
+.news {
+    margin-top: 50px;
+}
+
+.news__main {
+    width: 734px;
+    height: 757px;
+    border: 1px solid #979797;
+}
+
+.news__main__box {
+    margin: 18px 0 0 21px ;
+    width: 309px;
+    height: 34px;
+    border-bottom: 1px solid #979797;
+}
+
+.news__main__box__title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+    width: 129px;
+    height: 34px;
+}
+
+.news__images {
+    margin-top: 30px;
+}
+
+.image1 {
+    margin-left: 19px;
+    position: relative;
+}
+
+.milan {
+    width: 86px;
+    background-color: #468EDA;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 34px 2px 13px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.image2 {
+    margin-right: 26px;
+}
+
+.news__subtext {
+    margin: 7px 0 0 19px;
+}
+
+.news__subtext__title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.news__subtext__text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7D7D7D;
+}
+
+.vancouver {
+    background-color: #5BC08B;
+    width: 100px;
+}
+
+.lagos {
+    background-color: #C075B8;
+}
+
+.saint__petersburg {
+    background-color: #E0B172;
+    width: 160px;
+}
+
+.button--green {
+    background-color: #5BBD5B;
+    font-weight: 500;
+    font-size: 14px;
+    width: 690px;
+    margin: 37px auto;
+    padding: 23px 0 22px;
+}
+
+/* SECTION NEWS SIDE
+=================== */
+
+.news__side {
+    margin-left: 43px;
+}
+
+.stay {
+    width: 348px;
+    height: 224px;
+    border: 1px solid #979797;
+}
+
+.icon {
+    margin: 50px auto;
+    width: 259px;
+    
+}
+
+.authors {
+    width: 348px;
+    height: 489px;
+    border: 1px solid #979797;
+    margin-top: 47px;
+}
+
+.authors__item {
+    width: 180px;
+    height: 71px;
+    margin: 44px 0 0 16px;
+    display: flex;
+}
+
+.authors__text {
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.authors__item__title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.authors__item__subtext {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7D7D7D;;
+}
+
+.authors__item__next {
+    margin-top: 16px;
+}
+
+/* SECTION VIDEO */
+
+.container__video {
+    width: 1122px;
+    height: 300px;
+    background-color: #F4F4F4;
+    margin-top: 50px;
+}
+
+.video__title {
+    padding: 18px 0 6px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #000000;
+    width: 129px;
+    text-transform: uppercase;
+}
+
+.video__block {
+    margin-top: 20px;
+}
+
+.video__item__image {
+    position: relative;
+}
+
+.video__item__icon {
+    position: absolute;
+    top: 53px;
+    left: 103px;
+}
+
+.video__item__title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 238px;
+    text-align: center;
+    position: absolute;
+    left: 12px;
+    bottom: 16px;
+}
+
+.video__item__image--first {
+    margin-left: 15px;
+}
+
+.video__item__image--second {
+    margin-left: 7px;
+}
+
+.video__item__image--last {
+    margin-left: -6px;
+}
+
+/* SECTION LAST */
+
+.container__last {
+    width: 1122px;
+    margin-top: 37px;
+    display: flex;
+}
+
+.headlines {
+    width: 734px;
+    height: 432px;
+    border: 1px solid #979797;
+}
+
+.subscribe {
+    width: 348px;
+    height: 282px;
+    border: 1px solid #979797;
+    margin-left: 40px;
+}
+
+.headlines__info {
+    display: flex;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.headlines__info__image {
+    margin-top: -1px;
+}
+
+.headlines__info__text {
+    margin-left: 16px;
+    margin-top: 6px;
+}
+
+.headlines__info__text__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.headlines__info__text__main {
+    font-size: 14px;
+    font-weight: 600;
+    color: #696969;
+}
+
+.headlines__info__sub {
+    font-size: 12px;
+    font-weight: 500;
+    color: #7D7D7D;
+}
+
+.border__top {
+    border-top: 1px solid #979797;
+}
+
+.border__top__bottom {
+    padding-bottom: 19px;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+.subscribe__email {
+    margin-top: 26px;
+    margin-left: 19px;
+    color: #696969;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subscribe__email__label {
+    margin: 0;
+}
+
+.subscribe__email__input {
+    color: #9B9B9B;
+    font-weight: 500;
+    margin-top: 11px;
+    padding: 14px 0 13px 13px;
+    width: 308px;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
+
+.subscribe__email__button {
+    margin-top: 23px;
+    margin-left: 212px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #5BBD5B;
+    border-radius: 6px;
+    padding: 14px 32px 13px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #363636;
+    margin-top: 111px;
+}
+
+.footer__text {
+    color: #BFBFBF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 52px 0 50px;
+}
+
